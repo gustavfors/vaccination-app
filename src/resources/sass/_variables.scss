@@ -1,0 +1,63 @@
+// Body
+//$body-bg: #f8fafc;
+$body-bg: #fbf7ef;
+
+// Typography
+// $font-family-sans-serif: 'Nunito', sans-serif;
+// $font-family-sans-serif: 'Inter', sans-serif;
+$font-family-sans-serif: 'Poppins', sans-serif;
+// $font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #0d2aab;
+$light: #f4f5f7;
+$secondary: #a4b1c4;
+$success: #2aa42b;
+// $indigo: #6574cd;
+// $purple: #9561e2;
+// $pink: #f66d9b;
+// $red: #e3342f;
+// $orange: #f6993f;
+// $yellow: #ffed4a;
+// $green: #38c172;
+// $teal: #4dc0b5;
+// $cyan: #6cb2eb;
+
+$border-radius: .5rem;
+$border-radius-lg: 40px;
+$border-radius-sm: .25rem;
+
+$container-max-widths: (sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1340px) !default;
+
+
+.nav-link {
+    font-size: 13px;
+}
+
+.bg-gray-100 {
+    background-color: #F3F6F9 !important;
+}
+
+.card,
+.card-header {
+    border: 0 !important;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 0px !important;
+    font-weight: 600;
+}
+
+.label {
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
