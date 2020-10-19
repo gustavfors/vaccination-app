@@ -64,3 +64,8 @@ Admin user example (empty, but can add new vaccines to the database)
 username: admin@healthzone.com
 password: healthzone123
 ```
+
+Site should be available at
+```
+localhost:8080
+```
