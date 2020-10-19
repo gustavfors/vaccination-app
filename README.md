@@ -39,14 +39,14 @@ php - :9000
 
 If ports are already in use, change them in the docker-compose.yml
 
-example old:
+Example old:
 ```
 mysql:
     ports:
       - "3306:3306"
 ```
 
-example new:
+Example new:
 ```
 mysql
     ports:
@@ -59,7 +59,7 @@ username: demo@healthzone.com
 password: healthzone123
 ```
 
-admin user example (empty, but can add new vaccines to the database)
+Admin user example (empty, but can add new vaccines to the database)
 ```
 username: admin@healthzone.com
 password: healthzone123
